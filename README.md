@@ -4,7 +4,7 @@ A hellbanned player can type and voice chat as much as they want, but nobody wil
 
 # Usage
 
-Add player IDs to an array in `Mod.ini` with the following format:
+Admins can hellban players by adding IDs to the server's `Mod.ini` with the following format:
 
 ```
 [Hellban.Server]
@@ -13,7 +13,7 @@ PlayerIDs=yd83abe496ca401497b5adf4e412bf2c
 PlayerIDs=zd83abe496ca401497b5adf4e412bf2c
 ```
 
-Local clients can do the same in their `Mod.ini`:
+Local clients mute players locally in their own `Mod.ini`:
 
 ```
 [Hellban.Client]
